@@ -7,5 +7,5 @@ docker build -t vocbench3-simple .
 
 Start the container: 
 ```bash
-docker run -p 1979:1979 vocbench3-simple
+docker run -d -p 1979:1979 vocbench3-simple
 ```
